@@ -2,9 +2,9 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Search from "./pages/Search";
-import Saved from "./pages/Saved";
 import Nav from "./components/Nav";
+import Saved from "./pages/Saved";
+import Search from "./pages/Search";
 import NoMatch from "./pages/NoMatch";
 
 function App() {

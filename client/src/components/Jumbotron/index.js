@@ -1,20 +1,9 @@
 import React from "react";
-
+import "./style.css"
 function Jumbotron ({children}){
-    const background = "./google.jpg"
-    //https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2721&q=80
+    const background = "./assets/google.png"
     return (
-        <div 
-            style={{clear:"both",marginTop:30, 
-                paddingTop: 120, 
-                paddingBottom: 120, 
-                textAlign: "center",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                backgroundImage: "url(" + background + ")"
-                }}
-            className="jumbotron border">
+        <div style={{backgroundImage: "url(" + background + ")" }} className="jumbotron border">
             {children}
         </div>
     )

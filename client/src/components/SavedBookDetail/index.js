@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css"
 const SavedBookDetail = props => {
   return (
     <span>
@@ -9,15 +9,7 @@ const SavedBookDetail = props => {
           <h6 className="card-subtitle mb-2 text-muted">{props.authors}</h6>
         </div>
         <div className="col-4">
-        <a href={props.link} 
-          target="_blank"
-          style={{
-            paddingLeft : 40,
-            paddingRight : 40,
-            marginBottom: 10, 
-            float:"right", 
-            marginLeft: 10 }}
-          className="btn btn-primary">
+        <a href={props.link} target="_blank" rel="noreferrer" className="btn btn-primary">
           View
         </a>
         <button onClick={props.handleDelete} className="btn btn-primary save-btn" 

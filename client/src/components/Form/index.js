@@ -7,20 +7,3 @@ export function Input(props){
         </div>
     );
 }
-// export function Btn(props){
-//     return (
-        
-//     <button {...props} 
-//         style={{
-//             paddingLeft : 40,
-//             paddingRight : 40,
-//             marginBottom: 10, 
-//             float:"right", 
-//             marginLeft: 10 }}
-//         className="btn btn-primary">
-//         {props.children}
-//     </button>
-        
-        
-//     )
-// }
